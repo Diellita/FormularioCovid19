@@ -103,6 +103,8 @@ footer:hover{
     cursor: pointer;
     border-radius: 15px;
     width: 20%;
+    text-align: center;
+    text-decoration: none;
 }
 .botao:hover{
     background-color:rgb(197, 241, 179);
