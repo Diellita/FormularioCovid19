@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <header>
+        <nav class="cabecalho">
+            <img class="foto_emblema" src="emblemaE.jpg">
+            <h1 class="tema">VACINAÇÃO COVID-19</h1>
+            <h1 class="tema">MINISTÉRIO DA SAÚDE</h1>
+            <h1 class="tema">GOVERNO FEDERAL</h1>
+            <img class="foto_emblema" src="emblemaD.jpg">
+        </nav>
+    </header>
+<div class="container">
+    <div class="formulario">
+        <h1 class="titulo">CADASTRAR</h1>
+        <form class="cadastro">
+            <label class="campo">Nome</label><input class="campo_input" type="text" placeholder="Nome">
+            <label class="campo">Sobrenome</label><input class="campo_input" type="text" placeholder="Sobrenome">
+            <label class="campo">Email</label> <input class="campo_input" type="email" placeholder="EX: maria@hotmail.com">
+            <label class="campo">Confime seu email</label><input class="campo_input" type="email" placeholder="Repita o Email acima">
+            <label class="campo">Data de Nascimento</label><input class="campo_input" type="date" form>
+            <label class="campo">Sexo</label>
+            <select class="campo_select">
+                <option disabled="disabled" selected="selected">Selecione</option>
+                <option> Feminino </option>
+                <option> Masculino </option>
+            </select>
+            <label class="campo">Telefone </label> <input class="campo_input" type="tel" placeholder="(00)Telefone com DDD">
+            <label class="campo">CEP </label> <input class="campo_input" type="text" placeholder="Cep 00000-000">
+            <label class="campo">Estado</label>
+            <select class="campo_select">
+                <option disabled="disabled" selected="selected">Selecione</option>
+                <option> Acre </option>
+                <option> Alagoas </option>
+                <option> Amapá </option>
+                <option> Amazonas </option>
+                <option> Bahia </option>
+                <option> Ceará </option>
+                <option> Distrito Federal </option>
+                <option> Espírito Santo </option>
+                <option> Goiás </option>
+                <option> Maranhão </option>
+                <option> Mato Grosso </option>
+                <option> Mato Grosso do Sul </option>
+                <option> Minas Gerais </option>
+                <option> Pará </option>
+                <option> Paraíba </option>
+                <option> Paraná </option>
+                <option> Pernambuco </option>
+                <option> Piauí </option>
+                <option> Rio de Janeiro </option>
+                <option> Rio Grande do Norte </option>
+                <option> Rio Grande do Sul </option>
+                <option> Rondônia </option>
+                <option> Roraima </option>
+                <option> Santa Catarina </option>
+                <option> São Paulo </option>
+                <option> Sergipe </option>
+                <option> Tocantis </option>
+            </select>
+            <label class="campo">Cidade </label><input class="campo_input" type="text" placeholder="Cidade">
+            <label class="campo">Bairro </label> <input class="campo_input" type="text" placeholder="Bairro">
+            <label class="campo">Endereço </label> <input class="campo_input" type="text" placeholder="Ex: Rua, Avenida...">
+            <label class="campo">Número </label> <input class="campo_input" type="text" placeholder="Número">
+            <label class="campo">Complemento </label> <input class="campo_input" type="text" placeholder="Ex: Qd, apt, Cond ">
+            <label class="campo">Escolaridade </label>
+            <select class="campo_select">
+                <option disabled="disabled" selected="selected">Selecione</option>
+                <option> Não Alfabetizado</option>
+                <option> Ensino Fundamental</option>
+                <option> Ensino Medio</option>
+                <option> Ensino Técnico</option>
+                <option> Ensino Superior </option>
+                <option> Pós Graduação </option>
+                <option> Mestrado </option>
+                <option> Doutorado </option>
+            </select>
+            <label class="campo">Profissão </label><input class="campo_input" type="text" placeholder="Insira aqui sua profissão"><br><br>
+            <label class="campo_radio">Já foi diagnosticado com Covid-19? </label><br><br>
+            <input  type="radio" name="gender" value="sim">
+            <label class="campo" for="female">SIM</label><br>
+            <input type="radio" id="other" name="gender" value="NÃO">
+            <label class="campo" for="other">NÃO</label><br><br>
+            <input type="checkbox" class="campo_checkbox" name="scales" checked><label for="scales">Aceitar Termos de Uso</label>
+        </form>
+        <div class="btn">
+           <button class="botao">Salvar</button>
+        </div>
+    </div>
+</div>
+</body>
+    <footer>
+        <a class="midia">SITE</a>
+        <a class="midia">FACEBOOK</a>
+        <a class="midia">INSTAGRAM</a>
+        <a class="midia">YOUTUBE</a>
+        <a class="midia">BLOG</a>
+        <a class="midia">NOTÍCIAS</a>
+    </footer>
+</body>
+</html>

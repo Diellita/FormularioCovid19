@@ -1,0 +1,162 @@
+body{
+    background: url(fundo.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.cabecalho{
+    background: rgb(38, 145, 38);
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    margin-bottom: 3%;
+}
+.foto_emblema{
+    display: flex;
+    justify-content:space-between;
+    height: 70px;
+    width:100px;
+    padding:25px ;
+}
+.titulo{
+    text-align: center;
+    color:rgb(38, 145, 38);
+    margin-bottom: 3%;
+}
+.tema{
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 2%;
+}
+.formulario{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction:column;
+    align-self: center;
+}
+.campo{
+    font-size: large;
+    font-weight: bold;
+}
+.campo_input, .campo_select{
+    height: 35px;
+    width: 100%;
+    font-size: 17px;
+    border-radius: 7px;
+    margin: 0.5%;
+    background-color: rgb(197, 241, 179);
+    margin-bottom: 2%;
+}
+.campo_input:hover, c:hover, .campo_radio:hover{
+    background-color: rgb(125, 247, 125);
+}
+.campo_radio{
+    font-size: large;
+    font-weight: bold; 
+    background-color: rgb(197, 241, 179);
+    border-radius: 15px;
+    border:solid 0.7px black;
+    padding: 0.9%;
+    color: rgb(39, 37, 37);
+    padding-right: 10%;
+    text-align: start;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(38, 145, 38);
+    padding: 10px;
+}
+footer:hover{
+    background-color:black ;
+    color: white;
+}
+.midia{
+    cursor: pointer;
+    font-weight: bold;
+}
+.midia:hover{
+    color: rgb(38, 145, 38);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.botao{
+    padding: 1.5%;
+    margin:5%;
+    background-color: rgb(38, 145, 38);
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 20%;
+}
+.botao:hover{
+    background-color:rgb(197, 241, 179);
+    color:rgb(38, 145, 38);
+}
+
+@media only screen and (max-width: 756px) {
+    .foto_emblema{
+        height: 50px;
+        width:90px;
+        padding:20px ;
+    }
+  }
+  @media only screen and (max-width: 720px) {
+    .foto_emblema{
+        height: 30px;
+        width:80px;
+    }
+    .tema{
+        font-size: 15px;
+    }
+    .campo_input,.campo_select{
+        font-size: 12px;
+    }
+    .midia{
+        font-size: 12px;
+    }
+  }
+  @media only screen and (max-width: 510px) {
+      .tema{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+    }
+    .foto_emblema{
+        display: none;
+    }
+    .midia{
+        font-size: 10px;
+    }
+  }
+  @media only screen and (max-width: 420px) {
+    .campo_radio{
+        font-size: 15px;
+    }
+    .botao{
+        font-size: 12px;
+        padding: 2%;
+    }
+    .campo{
+        font-size: 15px;
+    }
+    .titulo{
+        font-size: 20px;
+
+    }
+}
